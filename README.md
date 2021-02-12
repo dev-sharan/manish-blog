@@ -1,5 +1,7 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/dev-sharan/manish-blog)
 
+To serve : ng serve --disable-host-check --host 0.0.0.0
+
 ---------------------------------------------------------------------------------------------
 
 # ManishBlog
