@@ -3,6 +3,9 @@ image:
   
 tasks:
 - command: |
+    nvm install 12.20.2
+    nvm set default 12.20.2
+    npm i -g @angular/cli
     cd manish-blog
     npm install
     
