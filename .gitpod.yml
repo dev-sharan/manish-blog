@@ -8,3 +8,7 @@ tasks:
     npx @angular/cli analytics off
     npm i -g @angular/cli
     npm install
+
+vscode:
+  extensions:
+    - loiane.angular-extension-pack@0.9.0:6QpFyhxFQG4yh4pCiu7z2w==
