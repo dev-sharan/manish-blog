@@ -1,4 +1,6 @@
-FROM node 12.20.2
+FROM gitpod/workspace-full:latest
 
-RUN npm i -g @angular/cli
+RUN nvm install 12.20.2
+RUN nvm set default 12.20.2
+RUN npm -i @angular/cli
 
