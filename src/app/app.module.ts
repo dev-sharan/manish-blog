@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { CvComponent } from './cv/cv.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { BlogsComponent } from './blogs/blogs.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { DemoMaterialModule } from './material-module';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { BlogsComponent } from './blogs/blogs.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    FlexLayoutModule,
+    DemoMaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

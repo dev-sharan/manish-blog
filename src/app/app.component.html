@@ -1,24 +1,28 @@
 <div class="col">
   <div class="navbarwrapper">
-    <nav class="navbar navbar-dark navbar-expand-md">
-      <div class="container-fluid rm-padd"><a class="navbar-brand">&lt;&nbsp;fullstackmanish&nbsp;/&gt;</a><button
-          data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle
-            navigation</span><span class="navbar-toggler-icon"></span></button>
-        <div
-          class="collapse navbar-collapse d-xl-flex justify-content-md-end justify-content-lg-end justify-content-xl-end"
-          id="navcol-1">
-          <ul class="nav navbar-nav">
-            <li class="nav-item" role="presentation" [routerLinkActive]="['active']"
-              [routerLinkActiveOptions]="{exact:true}"><a class="nav-link" [routerLink]="['/']">CV</a></li>
-            <li class="nav-item" role="presentation" [routerLinkActive]="['active']"
-              [routerLinkActiveOptions]="{exact:true}"><a class="nav-link" [routerLink]="['/projects']">Projects</a>
-            </li>
-            <li class="nav-item" role="presentation" [routerLinkActive]="['active']"
-              [routerLinkActiveOptions]="{exact:true}"><a class="nav-link" [routerLink]="['/blogs']">Blogs</a></li>
-          </ul>
+    <mat-toolbar color="primary" style="height: 100%;">
+
+      <nav class="navbar navbar-dark navbar-expand-md" style="width: 100%">
+        <div class="container-fluid rm-padd"><a class="navbar-brand">Manish Sharan</a><button
+            data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle
+              navigation</span><span class="navbar-toggler-icon"></span></button>
+          <div
+            class="collapse navbar-collapse d-xl-flex justify-content-md-end justify-content-lg-end justify-content-xl-end"
+            id="navcol-1">
+            <ul class="nav navbar-nav">
+              <li class="nav-item" role="presentation" [routerLinkActive]="['active']"
+                [routerLinkActiveOptions]="{exact:true}"><a class="nav-link" [routerLink]="['/']">CV</a></li>
+              <li class="nav-item" role="presentation" [routerLinkActive]="['active']"
+                [routerLinkActiveOptions]="{exact:true}"><a class="nav-link" [routerLink]="['/projects']">Projects</a>
+              </li>
+              <li class="nav-item" role="presentation" [routerLinkActive]="['active']"
+                [routerLinkActiveOptions]="{exact:true}"><a class="nav-link" [routerLink]="['/blogs']">Blogs</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+
+    </mat-toolbar>
   </div>
 
   <div class="container-fluid">

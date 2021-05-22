@@ -8,7 +8,19 @@
 }
 
 .navbarwrapper {
-  background: #257ad2;
   margin-right: -15px;
   margin-left: -15px;
+}
+
+.navbar-inner {
+    background:transparent;
+}
+
+.nav-item {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.navbar-brand {
+  font-size: 20px;
 }
