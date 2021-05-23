@@ -1,4 +1,22 @@
 <mat-drawer-container class="example-container remmar" [ngStyle]="{'height': 'calc( 100vh - '+ getHeight()+')'}">
   <mat-drawer mode="side" closed>Drawer content</mat-drawer>
-  <mat-drawer-content>Main content</mat-drawer-content>
+  <mat-drawer-content>
+    <div>
+      <div fxLayout="column" fxLayoutGap="30px" style="padding: 30px;">
+        <div style="background-color: rgba(0, 0, 0, 0.644); border: 1px solid #5e5d5d; border-radius: 9px;">
+          <div fxLayout="row" fxLayoutAlign="space-between center" style="padding: 30px;">
+            <div fxFlex="15">
+              <img src="https://avatars.githubusercontent.com/u/16868472?v=4" alt="profilepic" style="height: auto; width: 87%">
+            </div>
+            <div fxFlex="65">hii</div>
+            <div fxFlex="20">bye</div>
+          </div>
+        </div>
+
+        <div style="display: flex; justify-content: center;">
+
+        </div>
+      </div>
+    </div>
+  </mat-drawer-content>
 </mat-drawer-container>

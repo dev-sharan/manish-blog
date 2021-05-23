@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CvComponent implements OnInit {
 
+  src = 'https://raw.githubusercontent.com/dev-sharan/uploads/main/manish%20angular%20(2).pdf';
+
   constructor() { }
 
   ngOnInit(): void {
@@ -15,4 +17,5 @@ export class CvComponent implements OnInit {
   getHeight() {
     return localStorage.getItem('height');
   }
+
 }
