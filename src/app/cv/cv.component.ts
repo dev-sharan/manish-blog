@@ -12,4 +12,7 @@ export class CvComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  getHeight() {
+    return localStorage.getItem('height');
+  }
 }
