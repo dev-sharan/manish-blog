@@ -13,7 +13,7 @@ export class AppComponent implements OnInit {
 
   toggle() {
     setTimeout(() => {
-          localStorage.setItem('height', document.getElementById('navcol-1').classList.contains('show') ? document.getElementsByClassName('navbarwrapper')[0]['offsetHeight'] + 4 +'px' : document.getElementsByClassName('navbarwrapper')[0]['offsetHeight'] + 4 +'px');
+          localStorage.setItem('height', document.getElementById('navcol-1').classList.contains('show') ? document.getElementsByClassName('navbarwrapper')[0]['offsetHeight'] +'px' : document.getElementsByClassName('navbarwrapper')[0]['offsetHeight'] +'px');
     }, 300)
   }
 }
